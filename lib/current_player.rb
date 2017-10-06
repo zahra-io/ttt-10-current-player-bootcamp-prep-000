@@ -4,6 +4,7 @@ def turn_count(board)
   turn = 0
   # loop over elements of the board
   board.each do |player|
+    # if player is X or player is O turn the board
     if player == "X" || player == "O"
       turn += 1
     end
