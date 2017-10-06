@@ -1,8 +1,6 @@
 def turn_count(board)
-  player_one = "X"
-  player_two = "O"
-  counter = 0
-  board.each do |board_move|
+  turn = 0
+  board.each do |player|
 
     counter += 1
 end
